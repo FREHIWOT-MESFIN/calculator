@@ -1,0 +1,25 @@
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .6);
+    padding: 1%;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.clear{
+    background-color: red;
+}
+.operator{
+    background-color: yellow;
+}
+.button{
+    border: 1px solid rgba(0, 0, 0, .6);
+    padding: 1rem;
+}
+.equal-sign{
+    background-color: blue;
+}
