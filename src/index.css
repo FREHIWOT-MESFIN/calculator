@@ -1,4 +1,29 @@
+
+:root {
+  --body-background: #ddd;
+  --calculator-background: rgba(42, 42, 42, .9); /* Blackish background */
+  --font-color: #f0f0f0; /* Light color font */
+  --operator-color: #ff6600; /* Orangish operator color */
+  --key-background-color: #444; /* Darker key color */
+  --key-font-color: #f0f0f0; 
+  --input: rgba(240, 240, 240, 0.5);
+}
+body.light-theme{
+  --calculator-background: rgba(245, 245, 245, .9); /* Light background */
+  --font-color: #333; /* Dark font color */
+  --key-background-color: #ddd; /* Light key color */
+  --key-font-color: #333; 
+  --input: rgba(95, 87, 87, 0.2);
+}
 body {
+  background-color: var(--body-background);
+  color: var(--font-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

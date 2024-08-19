@@ -5,7 +5,7 @@ const Output = (props) =>{
     return(
         <>
             <OutputRow value ={props.answer} />
-            <OutputRow value ={props.user} />
+            <OutputRow value ={props.user} className={props.className}/>
         </>
     )
 }

@@ -1,9 +1,10 @@
 import React from "react";
 
+
 const OutputRow = (props)=>{
     return(
         <div>
-            <input type="text" readOnly value={props.value}></input>
+            <input type="text" className={props.className} readOnly value={props.value}></input>
         </div>
     )
 }
